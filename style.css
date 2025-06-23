@@ -1,17 +1,17 @@
 body {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  background-color: #fff8dc; /* soft cream */
+  font-family: 'Comic Neue', sans-serif;
+  background-color: #fff8dc;
   margin: 0;
   padding: 0;
   color: #333;
 }
 
 header {
-  background-color: #f7d94c; /* sunny yellow */
+  background-color: #f7d94c;
   padding: 1rem;
   text-align: center;
   font-size: 2rem;
-  color: #003366; /* deep blue */
+  color: #003366;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
@@ -19,20 +19,20 @@ nav {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  background-color: #d9e7ff; /* light blue */
+  background-color: #d9e7ff;
   padding: 0.5rem;
 }
 
 nav a {
   text-decoration: none;
-  color: #003366; /* deep blue */
+  color: #003366;
   font-weight: bold;
   padding: 0 10px;
-  border-right: 2px solid #003366; /* vertical line */
+  border-right: 2px solid #003366;
 }
 
 nav a:last-child {
-  border-right: none; /* no line on last link */
+  border-right: none;
 }
 
 main {
@@ -43,7 +43,7 @@ main {
 
 .comic-page {
   width: 100%;
-  border: 4px dashed #f7d94c; /* yellow dashed */
+  border: 4px dashed #f7d94c;
   border-radius: 12px;
   background-color: #fff;
   padding: 1rem;
