@@ -39,9 +39,11 @@ nav a:hover {
 }
 
 main {
+  max-width: 900px;
+  margin: 0 auto;
   padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 h2 {
