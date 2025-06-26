@@ -31,10 +31,12 @@ nav {
 }
 
 nav a {
-  text-decoration: none;
-  color: #000;
+  font-size: 1.2rem; /* Try 1.4rem or 1.5rem if you want it even bigger */
+  font-weight: bold;
   padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #000; /* or your preferred text color */
 }
 
 nav a:hover {
